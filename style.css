@@ -1,0 +1,63 @@
+.menu{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 250px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    font-size: 25px;
+}
+header{
+    background-color: black;
+}
+.filtr{
+    float:left;
+    background-color: blueviolet;
+    width: 200px;
+}
+body {
+background-color: black;
+font-family: sans-serif;
+}
+.opys{
+    float:left;
+    color:white;
+    padding-right: 5000px;
+    font-size: 20px;
+    padding-bottom: 500px;
+}
+
+div h1{
+    color:white;
+}
+
+
+button:hover{
+    color: burlywood;
+    padding: 0px;
+}
+.today,.yesterday, .yesterday2{
+    display:none;
+}
+.kino_1{
+    width: 500px;
+    height:250px;
+    margin-left:200px; }
+    .kino_2{
+        width: 500px;
+        height:250px;
+        margin-left:200px; }
+        .kino_3{
+            width: 500px;
+            height:250px;
+            margin-left:200px; }
+            .img{
+                margin-top: 500px;
+                perspective: 500px;
+                transition:3s
+            }
+            .img:hover{
+                transform: rotateY(360deg);
+            }
